@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "daraja"
+version = "0.0.3"
+authors = [
+	{ name="John Gitahi", email="gitahi109@gmail.com" },
+]
+description = "a simple to use mpesa module around the daraja api"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: zlib/libpng License",
+	"Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/johngitahi/daraja.py"
+"Bug Tracker" = "https://github.com/johngitahi/daraja.py/issues"
