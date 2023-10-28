@@ -2,6 +2,9 @@
 *.py[cod]
 *$py.class
 
+# config
+*config*
+
 # C extensions
 *.so
 
