@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "daraja"
-version = "0.0.3"
+version = "0.0.4"
 authors = [
 	{ name="John Gitahi", email="gitahi109@gmail.com" },
 ]
-description = "a simple to use mpesa module around the daraja api"
+description = "A simple to use payments module around the Mpesa Daraja API"
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [

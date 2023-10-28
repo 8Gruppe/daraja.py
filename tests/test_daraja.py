@@ -1,18 +1,18 @@
 import unittest
 import asyncio
 import datetime
-from daraja import mpesa
+from daraja import Mpesa
 
 
 class TestMpesaClass(unittest.TestCase):
     def setUp(self): # initialize the class instance
-        self.instance = mpesa.Mpesa(config_file="test_config.json", env="dev")
+        self.instance = Mpesa(config_file="test_config.json", env="prod")
 
     def tearDown(self):
         del self.instance # clean up the instance
 
     def test_init(self):
-        self.assertEqual(self.instance.env, "dev")
+        self.assertEqual(self.instance.env, "prod")
 
     def test_get_time(self):
         async def run_test():
