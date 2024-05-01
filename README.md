@@ -30,4 +30,4 @@ response = mpesa.stk(receiver="254791500264", amount=50)
 print(response)
 ```
 
-I am working on extending this to cover all the remaining features the Daraja API has to offer. If you can help with it, [contact](https://gitahi.me/reach-me) me.
+I am working on extending this to cover all the remaining features the Daraja API has to offer. If you can help with it, [contact](https://read.gitahi.me/contact) me.
